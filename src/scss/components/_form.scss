@@ -1,0 +1,43 @@
+.form {
+    max-width: 360px;
+    margin: auto;
+
+    &__btn {
+        display: grid;
+        gap: 16px;
+        margin-top: 32px;
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        color: #344054;
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        
+    }
+
+    &__desc {
+        color: #667085;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 56px;
+    }
+}
+
+a {
+    color: #5429FF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    text-decoration: none;
+}
+
+
+
